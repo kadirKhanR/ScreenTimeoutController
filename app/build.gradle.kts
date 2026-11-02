@@ -4,6 +4,11 @@ plugins {
 }
 
 android {
+compileOptions {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
     namespace = "com.kadir.screentimeout"
     compileSdk = 35
 
@@ -15,3 +20,5 @@ android {
         versionName = "1.0"
     }
 }
+0
+
